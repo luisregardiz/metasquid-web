@@ -13,7 +13,7 @@ const Tokenomics = () => {
                 hidden: { opacity: 0, y: 100 },
             }}
             id="tokenomics"
-            className="mt-40 py-20 lg:mx-10 mx-5 flex flex-col "
+            className="mt-20 py-24 lg:mx-10 mx-10 flex flex-col "
         >
             <h2 className="self-center my-5 text-6xl uppercase font-black text-shadow-ms">
                 Tokenomics
@@ -77,12 +77,14 @@ const Tokenomics = () => {
                         </p>
                     </div>
                 </article>
-                <span className="text-2xl font-extrabold italic px-10 text-center leading-relaxed mt-10">
-                    * More info on the weekly BUSD Pool rewards will be
-                    available in our telegram chat. This will also be in the
-                    form of a fun Squid-Games-themed community event. There will
-                    be different rules every week.
-                </span>
+                <div className="bg-meta-dark-100 py-10 rounded-lg">
+                    <span className="text-2xl font-extrabold italic inline-flex mx-10 text-center leading-relaxed ">
+                        * More info on the weekly BUSD Pool rewards will be
+                        available in our telegram chat. This will also be in the
+                        form of a fun Squid-Games-themed community event. There
+                        will be different rules every week.
+                    </span>
+                </div>
             </div>
         </motion.section>
     );

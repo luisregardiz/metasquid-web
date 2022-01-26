@@ -13,15 +13,15 @@ const NavbarResponsive = ({ setOpen, isOpen }) => {
                     exit={{ opacity: 0, x: -100 }}
                     transition={{ duration: 0.2 }}
                     onClick={() => setOpen((prev) => !prev)}
-                    className="bg-meta-dark-100 absolute top-0 left-0 h-full w-full z-40"
+                    className="bg-meta-dark-100 absolute top-0 left-0 h-full min-h-screen w-full z-20"
                 >
                     <nav className="w-full h-screen flex flex-col items-center  justify-center">
-                        <ul className="space-y-8">
+                        <ul className="space-y-10">
                             {navItems.map((item) => (
                                 <li key={item.title}>
                                     <a
                                         href={item.link}
-                                        className="uppercase font-extrabold text-4xl  hover:text-slate-400 transition-all duration-200 ease-in-out"
+                                        className="uppercase font-extrabold text-7xl  hover:text-slate-400 transition-all duration-200 ease-in-out"
                                     >
                                         {item.title}
                                     </a>
@@ -32,7 +32,7 @@ const NavbarResponsive = ({ setOpen, isOpen }) => {
                                     href={Whitepaper}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="uppercase font-extrabold text-4xl  hover:text-slate-400 transition-all duration-200 ease-in-out"
+                                    className="uppercase font-extrabold text-7xl  hover:text-slate-400 transition-all duration-200 ease-in-out"
                                 >
                                     Whitepaper
                                 </a>

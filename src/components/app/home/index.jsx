@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import Squid from "../../../images/squid.png";
 import TokenCards from "../../../images/tokenCards.png";
@@ -14,10 +14,10 @@ const Home = () => {
                     />
                 </div>
                 <div className="lg:basis-1/2 basis-0">
-                    <h2 className="uppercase text-5xl font-black mb-2 leading-normal text-shadow-ms tracking-wide lg:text-left text-center">
+                    <h2 className="uppercase lg:text-5xl text-6xl font-black mb-2 leading-normal text-shadow-ms tracking-wide lg:text-left text-center">
                         100% Rug proof and community driven metaverse games!
                     </h2>
-                    <div className="flex flex-col lg:text-left text-center space-y-2 text-2xl lg:pt-0 lg:pb-0 pt-5 pb-10 ">
+                    <div className="flex flex-col lg:text-left text-center space-y-2 lg:text-2xl text-4xl lg:pt-0 lg:pb-0 pt-5 pb-10 ">
                         <span>Enjoy weekly prize pools,</span>
                         <span>Bitcoin Rewards and</span>
                         <span>Elimination Games</span>

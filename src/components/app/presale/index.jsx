@@ -10,7 +10,7 @@ const Presale = () => {
                             Presale Will starts in
                         </h2>
                         <span className="text-meta-cyan text-5xl font-bold">
-                            6d:13h:39m:30s
+                            00d:00h:00m:00s
                         </span>
                     </div>
                     <button

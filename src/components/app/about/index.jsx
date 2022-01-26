@@ -39,11 +39,11 @@ const About = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
             variants={{
-                visible: { opacity: 1, x: 0 },
-                hidden: { opacity: 0, x: 100 },
+                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, y: 100 },
             }}
             id="about"
-            className="my-20 flex flex-col  lg:mx-10 mx-5"
+            className="my-20 py-20 flex flex-col  lg:mx-10 mx-5"
         >
             <h2 className="font-black text-6xl uppercase text-shadow-ms self-center lg:text-left text-center mt-10">
                 What is metasquid?
@@ -53,18 +53,18 @@ const About = () => {
                 {aboutInfo.map((info) => (
                     <article
                         key={info.id}
-                        style={{ height: "500px" }}
+                        style={{ height: "600px" }}
                         className="flex flex-col lg:items-start items-center text-center lg:text-left"
                     >
                         <img
                             src={getImage(info.id)}
                             alt={info.title}
-                            className="lg:w-3/5 w-1/2 relative lg:-left-28 left-5 lg:-bottom-16 -bottom-24 "
+                            className="lg:w-3/5 w-1/2 relative lg:-left-28 left-6 lg:-bottom-16 -bottom-24 "
                         />
                         <h3 className="font-extrabold uppercase text-4xl mb-4">
                             {info.title}
                         </h3>
-                        <p className="w-3/4 leading-loose text-xl font-medium">
+                        <p className="w-3/4 leading-loose lg:text-xl text-2xl font-medium">
                             {info.description}
                         </p>
                     </article>

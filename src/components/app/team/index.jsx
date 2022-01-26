@@ -1,7 +1,7 @@
 import React from "react";
 import Mitchel from "../../../images/team/mitchel.png";
 import Kevin from "../../../images/team/kevin.png";
-import Michel from "../../../images/team/michel.png";
+
 import Alex from "../../../images/team/alex.png";
 import { BsLinkedin } from "react-icons/bs";
 import { motion } from "framer-motion";

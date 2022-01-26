@@ -1,13 +1,11 @@
 import { motion } from "framer-motion";
 import React from "react";
 import { roadmapQ1, roadmapQ2, roadmapQ4 } from "../../../helpers/roadmap";
-import Q4 from "../../../images/roadmap/2021Q4.png";
-import Q1 from "../../../images/roadmap/2022Q1.png";
-import Q2 from "../../../images/roadmap/2022Q2.png";
+
 import Check from "../../../images/check.svg";
 const Roadmap = () => {
     return (
-        <section id="roadmap" className="flex flex-col mt-20 mb-10">
+        <section id="roadmap" className="flex flex-col mt-20 mb-10 py-20">
             <h2 className="self-center mt-10 mb-20 text-6xl uppercase font-black text-shadow-ms ">
                 Roadmap
             </h2>
@@ -20,10 +18,10 @@ const Roadmap = () => {
                     visible: { opacity: 1, y: 0 },
                     hidden: { opacity: 0, y: -100 },
                 }}
-                className="list-roadmap lg:mx-10 mx-5"
+                className="list-roadmap lg:mx-10  lg:w-auto w-1/2 mx-auto"
             >
                 <div className="wrapper-presale">
-                    <div className="roadmap-card">
+                    <div className="roadmap-card ">
                         <h4 className="text-gradient font-extrabold text-4xl mb-4">
                             Q1 - 2022
                         </h4>
@@ -31,7 +29,7 @@ const Roadmap = () => {
                             {roadmapQ4.map((item, index) => (
                                 <li
                                     key={index}
-                                    className="lg:text-base text-lg flex items-center space-x-2"
+                                    className="lg:text-base text-lg flex items-center space-x-3"
                                 >
                                     {item.completed ? (
                                         <img
@@ -40,10 +38,12 @@ const Roadmap = () => {
                                             className="w-5"
                                         />
                                     ) : (
-                                        <div className="h-5 w-5 rounded-full border-2 border-meta-fuchsia road-pending"></div>
+                                        <div className="h-5 w-5 rounded-full border-2 border-meta-fuchsia road-pending flex-none"></div>
                                     )}
 
-                                    <span>{item.name}</span>
+                                    <span className="text-xl lg:text-lg">
+                                        {item.name}
+                                    </span>
                                 </li>
                             ))}
                         </ul>
@@ -58,7 +58,7 @@ const Roadmap = () => {
                             {roadmapQ1.map((item, index) => (
                                 <li
                                     key={index}
-                                    className="lg:text-base text-lg flex items-center space-x-2"
+                                    className="lg:text-base text-lg flex items-center space-x-3"
                                 >
                                     {item.completed ? (
                                         <img
@@ -67,9 +67,11 @@ const Roadmap = () => {
                                             className="w-5"
                                         />
                                     ) : (
-                                        <div className="h-5 w-5 rounded-full border-2 border-meta-fuchsia road-pending"></div>
+                                        <div className="h-5 w-5 rounded-full border-2 border-meta-fuchsia road-pending flex-none"></div>
                                     )}
-                                    <span>{item.name}</span>
+                                    <span className="text-xl lg:text-lg">
+                                        {item.name}
+                                    </span>
                                 </li>
                             ))}
                         </ul>
@@ -84,7 +86,7 @@ const Roadmap = () => {
                             {roadmapQ2.map((item, index) => (
                                 <li
                                     key={index}
-                                    className="lg:text-base text-lg flex items-center space-x-2"
+                                    className="lg:text-base text-lg flex items-center space-x-3"
                                 >
                                     {item.completed ? (
                                         <img
@@ -93,9 +95,11 @@ const Roadmap = () => {
                                             className="w-5"
                                         />
                                     ) : (
-                                        <div className="h-5 w-5 rounded-full border-2 border-meta-fuchsia road-pending"></div>
+                                        <div className="h-5 w-5 rounded-full border-2 border-meta-fuchsia road-pending flex-none"></div>
                                     )}
-                                    <span>{item.name}</span>
+                                    <span className="text-xl lg:text-lg">
+                                        {item.name}
+                                    </span>
                                 </li>
                             ))}
                         </ul>
