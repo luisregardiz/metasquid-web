@@ -199,8 +199,19 @@ main {
 
 }
 
+.article-about {
+  height: 500px;
+}
+
 .road-pending{
   animation: 2s ease-in-out infinite normal none running pulse;
+}
+
+
+@media screen and (min-width: 768px) {
+  .article-about {
+    height: 800px;
+  }
 }
 
 @keyframes pulse {

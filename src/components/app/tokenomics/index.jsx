@@ -27,7 +27,7 @@ const Tokenomics = () => {
                         <h3 className="text-4xl font-extrabold uppercase mb-5">
                             BUSD PRIZE POOL
                         </h3>
-                        <p className="leading-relaxed text-2xl font-medium">
+                        <p className="leading-relaxed lg:text-2xl text-3xl font-medium">
                             Every week there will be a winner in our community
                             that will WIN the whole BUSD pool! The more trading
                             volume there is, the bigger the POOL gets!
@@ -42,7 +42,7 @@ const Tokenomics = () => {
                         <h3 className="text-4xl font-extrabold uppercase mb-5">
                             BUYBACK
                         </h3>
-                        <p className="leading-relaxed text-2xl font-medium">
+                        <p className="leading-relaxed lg:text-2xl text-3xl font-medium">
                             We will manually buy the dips and add liquidity to
                             make the token strong.
                         </p>
@@ -56,7 +56,7 @@ const Tokenomics = () => {
                         <h3 className="text-4xl font-extrabold uppercase mb-5">
                             BTCb REWARDS
                         </h3>
-                        <p className="leading-relaxed text-2xl font-medium">
+                        <p className="leading-relaxed lg:text-2xl text-3xl font-medium">
                             HODLers will be rewarded in BTCb just for holding
                             $SQDS, meaning you'll automatically earn a passive
                             income!
@@ -71,7 +71,7 @@ const Tokenomics = () => {
                         <h3 className="text-4xl font-extrabold uppercase mb-5">
                             MARKETING
                         </h3>
-                        <p className="leading-relaxed text-2xl font-medium">
+                        <p className="leading-relaxed lg:text-2xl text-3xl font-medium">
                             This wallet will be used strategically for big and
                             effective marketing to keep the project growing.
                         </p>

@@ -53,8 +53,7 @@ const About = () => {
                 {aboutInfo.map((info) => (
                     <article
                         key={info.id}
-                        style={{ height: "600px" }}
-                        className="flex flex-col lg:items-start items-center text-center lg:text-left"
+                        className="flex flex-col lg:items-start items-center text-center lg:text-left article-about"
                     >
                         <img
                             src={getImage(info.id)}
@@ -64,7 +63,7 @@ const About = () => {
                         <h3 className="font-extrabold uppercase text-4xl mb-4">
                             {info.title}
                         </h3>
-                        <p className="w-3/4 leading-loose lg:text-xl text-2xl font-medium">
+                        <p className="w-3/4 leading-loose lg:text-xl text-3xl font-medium">
                             {info.description}
                         </p>
                     </article>
