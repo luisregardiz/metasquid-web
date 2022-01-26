@@ -13,7 +13,7 @@ const Tokenomics = () => {
                 hidden: { opacity: 0, y: 100 },
             }}
             id="tokenomics"
-            className="mt-40 py-10 lg:mx-10 mx-5 flex flex-col "
+            className="mt-40 py-20 lg:mx-10 mx-5 flex flex-col "
         >
             <h2 className="self-center my-5 text-6xl uppercase font-black text-shadow-ms">
                 Tokenomics

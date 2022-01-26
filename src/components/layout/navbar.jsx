@@ -70,7 +70,7 @@ const Navbar = () => {
                             onClick={() =>
                                 window.open(
                                     "https://presale.metasquid.world",
-                                    "Presale"
+                                    "_blank"
                                 )
                             }
                             className="outline-button hover:text-slate-400"
@@ -83,7 +83,7 @@ const Navbar = () => {
                             onClick={() =>
                                 window.open(
                                     "https://sweepwidget.com/view/45161-n415bois",
-                                    "Whitelisting"
+                                    "_blank"
                                 )
                             }
                             className="outline-button hover:text-slate-400"

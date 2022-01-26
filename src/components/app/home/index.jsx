@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+
 import Squid from "../../../images/squid.png";
 import TokenCards from "../../../images/tokenCards.png";
 const Home = () => {
@@ -32,7 +33,10 @@ const Home = () => {
                     <div className="outline-button-wrapper w-full">
                         <button
                             onClick={() =>
-                                window.open("https://t.me/metasquidworld")
+                                window.open(
+                                    "https://t.me/metasquidworld",
+                                    "_blank"
+                                )
                             }
                             className="outline-button  w-full  "
                             style={{
