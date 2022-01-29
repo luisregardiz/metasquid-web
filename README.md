@@ -15,7 +15,7 @@ This App has been created with.
 ## Getting Started
 
 ### Prerequisites
-You need to have Node.js  installed
+You need to have Node.js installed
 * [Node.js](https://nodejs.org/es/)
 
 
