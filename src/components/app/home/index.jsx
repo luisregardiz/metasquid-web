@@ -17,10 +17,10 @@ const Home = () => {
                     <h2 className="uppercase lg:text-5xl text-6xl font-black mb-2 leading-normal text-shadow-ms tracking-wide lg:text-left text-center">
                         100% Rug proof and community driven metaverse games!
                     </h2>
-                    <div className="flex flex-col lg:text-left text-center space-y-2 lg:text-2xl text-4xl lg:pt-0 lg:pb-0 pt-5 pb-10 ">
-                        <span>Enjoy weekly prize pools,</span>
-                        <span>Bitcoin Rewards and</span>
-                        <span>Elimination Games</span>
+                    <div className="flex flex-col lg:text-left text-center space-y-2 lg:text-xl text-4xl lg:pt-0 lg:pb-0 pt-5 pb-10 ">
+                        <span>Enjoy weekly prize pools, Bitcoin Rewards</span>
+                        <span>NFT Rewards, BUSD Rewards,</span>
+                        <span>SQDS Rewards and much more...</span>
                     </div>
                 </div>
             </div>
@@ -32,12 +32,6 @@ const Home = () => {
                     </button>
                     <div className="outline-button-wrapper w-full">
                         <button
-                            onClick={() =>
-                                window.open(
-                                    "https://t.me/metasquidworld",
-                                    "_blank"
-                                )
-                            }
                             className="outline-button  w-full  "
                             style={{
                                 padding: "16px",
@@ -45,11 +39,20 @@ const Home = () => {
                                 fontWeight: "900",
                             }}
                         >
-                            Telegram
+                            Dashboard
                         </button>
                     </div>
                 </div>
-                <button className="btn-bg-ms w-full py-5 text-xl  font-black uppercase rounded-xl  ">
+
+                <button
+                    onClick={() =>
+                        window.open(
+                            "https://bscscan.com/address/0x3604604433eb4a69de1fd83f41e1ec994555d4c5",
+                            "_blank"
+                        )
+                    }
+                    className="btn-bg-ms w-full py-5 text-xl  font-black uppercase rounded-xl  "
+                >
                     View contract
                 </button>
             </div>

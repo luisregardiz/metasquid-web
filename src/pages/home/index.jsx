@@ -1,6 +1,5 @@
 import React from "react";
 import About from "../../components/app/about";
-import Community from "../../components/app/community";
 import Games from "../../components/app/games";
 import Home from "../../components/app/home";
 import Presale from "../../components/app/presale";
@@ -17,7 +16,6 @@ const HomePage = () => {
             <VideoIntro />
             <About />
             <Tokenomics />
-            <Community />
             <Games />
             <Roadmap />
             <Team />

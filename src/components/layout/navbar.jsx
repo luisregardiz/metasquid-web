@@ -86,19 +86,6 @@ const Navbar = () => {
                                 Presale
                             </button>
                         </div>
-                        <div className="outline-button-wrapper ">
-                            <button
-                                onClick={() =>
-                                    window.open(
-                                        "https://sweepwidget.com/view/45161-n415bois",
-                                        "_blank"
-                                    )
-                                }
-                                className="outline-button hover:text-slate-400"
-                            >
-                                Whitelisting
-                            </button>
-                        </div>
                     </div>
                 </nav>
                 <div className="outline-button-wrapper lg:hidden block">

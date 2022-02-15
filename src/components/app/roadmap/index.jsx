@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
-import { roadmapQ1, roadmapQ2, roadmapQ4 } from "../../../helpers/roadmap";
+import { roadmapQ1, roadmapQ2, roadmapQ3 } from "../../../helpers/roadmap";
 
 import Check from "../../../images/check.svg";
 const Roadmap = () => {
@@ -26,7 +26,7 @@ const Roadmap = () => {
                             Q1 - 2022
                         </h4>
                         <ul className="lg:space-y-3 space-y-5">
-                            {roadmapQ4.map((item, index) => (
+                            {roadmapQ1.map((item, index) => (
                                 <li
                                     key={index}
                                     className="lg:text-base text-lg flex items-center space-x-3"
@@ -55,7 +55,7 @@ const Roadmap = () => {
                             Q2 - 2022
                         </h4>
                         <ul className="lg:space-y-3 space-y-5">
-                            {roadmapQ1.map((item, index) => (
+                            {roadmapQ2.map((item, index) => (
                                 <li
                                     key={index}
                                     className="lg:text-base text-lg flex items-center space-x-3"
@@ -83,7 +83,7 @@ const Roadmap = () => {
                             Q3 - 2022
                         </h4>
                         <ul className="lg:space-y-3 space-y-5">
-                            {roadmapQ2.map((item, index) => (
+                            {roadmapQ3.map((item, index) => (
                                 <li
                                     key={index}
                                     className="lg:text-base text-lg flex items-center space-x-3"

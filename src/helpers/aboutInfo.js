@@ -6,13 +6,7 @@ export const aboutInfo = [
         description:
             "This token and games are made for the community. Especially for those who got affected by the biggest BSC scam recently named “Squid Game”. Our vision is to create a real and solid project where you can play fun games, earn money and even vote on the future development of the token and community.",
     },
-    {
-        id: 2,
-        title: "Rug proof",
 
-        description:
-            "We know that the crypto space can be a place with lots of scams. MetaSquid's contract shows that we locked the liquidity for one year by a significant amount. Our liquidity/buyback fees will ensure that the contract keeps locking liquidity and buying back dips, which is important for the project to stay stable.",
-    },
     {
         id: 3,
         title: "NFTS",
@@ -30,12 +24,6 @@ export const aboutInfo = [
         title: "Metaverse",
         description:
             "MetaSquid will create an open world where you can walk through and enter various games in buildings to join other players. Pick your favorite game, enter the pool and of course, DONT get ELIMINATED! This will be the core of all our games, Elimination, but there will also be many fun lotteries and other community chances to win games.    ",
-    },
-    {
-        id: 6,
-        title: "Auto-staking",
-        description:
-            "Getting rewards for HODLing is a BIG plus! Thats why we at MetaSquid have implemented an auto-staking system that will reward investors with BTCb for HODLing their $SQDS. Investors will automatically see their BTCb in their wallets grow. The more daily volume, the more BTCb rewards HODLers receive!",
     },
     {
         id: 7,

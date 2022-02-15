@@ -52,7 +52,7 @@ const Team = () => {
                         className="w-52 border-4 rounded-full border-meta-purple"
                     />
                     <h4 className="text-2xl font-bold mt-2">Alex Grande</h4>
-                    <span>Chief Operating Officer</span>
+                    <span>Chief Operations Officer</span>
                     <a
                         href="https://www.linkedin.com/in/alejandro-grande-430a24228/"
                         target="_blank"

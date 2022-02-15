@@ -20,9 +20,6 @@ const Footer = () => {
 
                     <div className="outline-button-wrapper w-full">
                         <button
-                            onClick={() =>
-                                window.open("https://t.me/metasquidworld")
-                            }
                             className="outline-button  w-full  "
                             style={{
                                 padding: "16px",
@@ -30,7 +27,7 @@ const Footer = () => {
                                 fontWeight: "900",
                             }}
                         >
-                            Telegram
+                            Dashboard
                         </button>
                     </div>
                 </div>
