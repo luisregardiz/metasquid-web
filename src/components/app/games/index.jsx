@@ -25,8 +25,7 @@ const Games = () => {
                     disableOnInteraction: false,
                 }}
                 modules={[Pagination, Navigation, Autoplay]}
-                className="mySwiper"
-                className=" mt-10"
+                className="mySwiper mt-10"
             >
                 <SwiperSlide>
                     <img src={FallingSquids} alt="Falling Squids" />
